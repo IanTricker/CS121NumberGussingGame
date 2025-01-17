@@ -1,17 +1,29 @@
 # CS121NumberGussingGame
 
-+ Ask user for name, using variable name in an array of 20
+## includes
++ #include <stdio.h>
++ #include <stdlib.h>
++ #include <time.h>
++ #include <stdbool.h>
 
-+ Find out how to generate random number?
-
-+ create a while loop with True and False
-
-+ create i a number that tracks how much inputs a person has
-
-+ ask the user for a integer
-
-+ make a if statment that checks to see if number is random number
-
-+ if not tell them if it is too high or low
-
-+ once found tell them good job if within 6 guess, ok within 7 guess, and anything past that astrise them
+## Main
+### Seed
++ create a seed with time and NULL
+### Store Variables
++ int randomNum
++ int userNum
++ int count=0
++ bool keepGoing = true
++ char name[20]
+### Random Number Gerator
++ create random number genny for % 101
+### while loop
++  while keepGoing = true
++  add to count
++  if userNum < randomNum print to low
++  if userNum > randomNum print to high
++  if userNum = randomNum print good and make keepgoing false
+### how good did they do
++ if count < 7 print good
++ if count = 7 print ok
++ if count > 7 tell them they are bad at life and need more brain
