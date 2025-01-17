@@ -15,3 +15,12 @@
 + if not tell them if it is too high or low
 
 + once found tell them good job if within 6 guess, ok within 7 guess, and anything past that astrise them
+
+
+
+
+create true and false constants
+create int for randomNum
+create int for userNum
+create int for amount of inputs i
+
