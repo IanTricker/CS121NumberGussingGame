@@ -26,7 +26,7 @@ int main() {
   printf("HELLO %s! Welcome to the random guess game, with Sabrina Carpenter as our host today. lets hope that you are the sharpest tool and make this Short n' Sweet\n", name);
 
   // random number genny
-  randomNum = rand() % 101;
+  randomNum = (rand() % 100)+1;
 
   //while loop if TRUE
   while (keepGoing == true) {
@@ -46,13 +46,13 @@ int main() {
 
   }
   if (count < 7) {
-	  printf("Great job you can stay in my Good Graces");
+	  printf("Great job you can stay in my Good Graces\n");
   }
   if (count == 7) {
-	  printf("You did ok, what a Coincidence");
+	  printf("You did ok, what a Coincidence\n");
   }
   if (count > 7) {
-	  printf("You truly are not the Sharpest Tool maybe get an Espresso to wake you up");
+	  printf("You truly are not the Sharpest Tool maybe get an Espresso to wake you up\n");
   }
   return 0;
 }
